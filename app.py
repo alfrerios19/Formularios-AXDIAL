@@ -71,4 +71,5 @@ if st.button("🖨 Generar Documento"):
         data=buf,
         file_name=f"{ruta_plantilla.stem}_rellenado.docx",
         mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    )
 
