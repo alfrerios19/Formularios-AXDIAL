@@ -19,6 +19,16 @@ def extract_fields(path_docx: pathlib.Path):
             ordenados.append(c)
     return ordenados
 
+# --- Diccionario para etiquetas amigables ---
+labels_amigables = {
+    "ANO": "AÑO",
+    "Nombre_Apellidos_Razon_Social ": "Nombre y apellidos / Razón Social",
+    "Nombre_Representante ": "Nombre del representante del menor (en caso de menor)",
+    "representado ": "Socio titular / Representante legal (Padre/Madre/Tutor) de: ",
+    "Secretario ": "Nombre del Secretario/a",
+    
+}
+
 # --- Carpeta donde buscar plantillas ---
 BASE_DIR = pathlib.Path(__file__).parent
 plantillas = list(BASE_DIR.glob("*.docx"))
@@ -46,7 +56,8 @@ campos = extract_fields(ruta_plantilla)
 st.markdown("### Rellena los campos:")
 context = {}
 for c in campos:
-    context[c] = st.text_input(c)
+    etiqueta = labels_amigables.get(c, c)  # Si no está en el diccionario, usa el original
+    context[c] = st.text_input(etiqueta)
 
 # ---------------------- GENERAR DOCUMENTO ----------------------
 if st.button("🖨 Generar Documento"):
@@ -59,5 +70,5 @@ if st.button("🖨 Generar Documento"):
         "⬇ Descargar .docx",
         data=buf,
         file_name=f"{ruta_plantilla.stem}_rellenado.docx",
-        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-    )
+        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document
+
