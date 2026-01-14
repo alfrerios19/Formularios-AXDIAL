@@ -22,10 +22,10 @@ def extract_fields(path_docx: pathlib.Path):
 # --- Diccionario para etiquetas amigables ---
 labels_amigables = {
     "ANO": "AÑO",
-    "Nombre_Apellidos_Razon_Social ": "Nombre y apellidos / Razón Social",
-    "Nombre_Representante ": "Nombre del representante del menor (en caso de menor)",
-    "representado ": "Socio titular / Representante legal (Padre/Madre/Tutor) de: ",
-    "Secretario ": "Nombre del Secretario/a",
+    "Nombre_Apellidos_Razon_Social": "Nombre y apellidos / Razón Social",
+    "Nombre_Representante": "Nombre del representante del menor (en caso de menor)",
+    "representado": "Socio titular / Representante legal (Padre/Madre/Tutor) de: ",
+    "Secretario": "Nombre del Secretario/a",
     
 }
 
