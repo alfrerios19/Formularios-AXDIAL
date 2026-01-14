@@ -70,6 +70,6 @@ if st.button("🖨 Generar Documento"):
         "⬇ Descargar .docx",
         data=buf,
         file_name=f"{ruta_plantilla.stem}_rellenado.docx",
-        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document
+        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
     )
 
