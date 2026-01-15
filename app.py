@@ -23,9 +23,12 @@ def extract_fields(path_docx: pathlib.Path):
 labels_amigables = {
     "ANO": "AÑO",
     "Nombre_Apellidos_Razon_Social": "Nombre y apellidos / Razón Social",
-    "Nombre_Representante": "Nombre del representante del menor (en caso de menor)",
-    "representado": "Socio titular / Representante legal (Padre/Madre/Tutor) de: ",
+    "Nombre_Representante": "Nombre del representante del menor* (solo si aplica)",
+    "representado": "Representante legal (Padre/Madre/Tutor)* (solo si aplica) de: ",
     "Secretario": "Nombre del Secretario/a",
+    "MES": "MES (ej:enero)",
+    "fecha": "Fecha",
+    
     
 }
 
