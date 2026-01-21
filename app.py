@@ -32,7 +32,8 @@ labels_amigables = {
     "Nombre_Apellidos_PrimerProgenitor": "Nombre y apellidos del primer progenitor o tutor",
     "Nombre_Apellidos_SegundoProgenitor": "Nombre y apellidos del segundo progenitor o tutor* (solo si aplica)",
     "Nombre_Apellidos_Menor": "Nombre y apellidos del menor de edad",
-        
+    "DNI_SegundoProgenitor": "DNI del segundo progenitor o tutor* (solo si aplica)",
+    
      
 }
 
