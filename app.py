@@ -29,7 +29,7 @@ labels_amigables = {
     "MES": "MES (ej:enero)",
     "fecha": "Fecha",
     "DNI_Representante": "DNI del Representante* (solo si aplica)",
-    
+    "Nombre_Apellidos_PrimerProgenitor": "Nombre y apellidos del primer progenitor o tutor",
     
 }
 
