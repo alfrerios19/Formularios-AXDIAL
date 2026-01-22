@@ -24,7 +24,7 @@ labels_amigables = {
     "ANO": "AÑO",
     "Nombre_Apellidos_Razon_Social": "Nombre y apellidos / Razón Social",
     "Nombre_Representante": "Nombre del representante del menor* (solo si aplica)",
-    "representado": "Representante legal (Padre/Madre/Tutor) de: ",
+    "representado": "Representante legal (Padre/Madre/Tutor)* (solo si aplica) de: ",
     "Secretario": "Nombre del Secretario/a",
     "MES": "MES (ej:enero)",
     "fecha": "Fecha",
