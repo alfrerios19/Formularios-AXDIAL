@@ -27,7 +27,7 @@ labels_amigables = {
     "representado": "Representante legal (Padre/Madre/Tutor)* (solo si aplica) de: ",
     "Secretario": "Nombre del Secretario/a",
     "MES": "MES (ej:enero)",
-    "fecha": "Fecha",
+    "fecha": "Fecha (formato DD/MM/YYYY)",
     "DNI_Representante": "DNI del Representante* (solo si aplica)",
     "Nombre_Apellidos_PrimerProgenitor": "Nombre y apellidos del primer progenitor o tutor",
     "Nombre_Apellidos_SegundoProgenitor": "Nombre y apellidos del segundo progenitor o tutor* (solo si aplica)",
