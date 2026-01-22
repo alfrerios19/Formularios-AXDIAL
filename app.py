@@ -33,7 +33,11 @@ labels_amigables = {
     "Nombre_Apellidos_SegundoProgenitor": "Nombre y apellidos del segundo progenitor o tutor* (solo si aplica)",
     "Nombre_Apellidos_Menor": "Nombre y apellidos del menor de edad",
     "DNI_SegundoProgenitor": "DNI del segundo progenitor o tutor* (solo si aplica)",
-    
+    "Actividad_Taller": "Actividad o Taller",
+    "Telefono": "Teléfono",
+    "Fecha_Taller": "Fecha de la actividad o taller",
+    "Hora_Empieza_Taller": "Hora a la que empieza la actividad o el taller (formato hh:mm)",
+    "Hora_Termina_Taller": "Hora a la que termina la actividad o el taller (formato hh:mm)",
      
 }
 
